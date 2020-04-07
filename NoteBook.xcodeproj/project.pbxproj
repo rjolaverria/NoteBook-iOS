@@ -13,6 +13,8 @@
 		0103F9F5242FD60800DC966C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0103F9F3242FD60800DC966C /* Main.storyboard */; };
 		0103F9F7242FD60A00DC966C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0103F9F6242FD60A00DC966C /* Assets.xcassets */; };
 		0103F9FA242FD60A00DC966C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0103F9F8242FD60A00DC966C /* LaunchScreen.storyboard */; };
+		0103FA02242FD7AF00DC966C /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0103FA01242FD7AF00DC966C /* Notes.swift */; };
+		0103FA04242FE7F200DC966C /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0103FA03242FE7F200DC966C /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0103F9F6242FD60A00DC966C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0103F9F9242FD60A00DC966C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0103F9FB242FD60A00DC966C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0103FA01242FD7AF00DC966C /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		0103FA03242FE7F200DC966C /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0103F9F6242FD60A00DC966C /* Assets.xcassets */,
 				0103F9F8242FD60A00DC966C /* LaunchScreen.storyboard */,
 				0103F9FB242FD60A00DC966C /* Info.plist */,
+				0103FA01242FD7AF00DC966C /* Notes.swift */,
+				0103FA03242FE7F200DC966C /* NoteViewController.swift */,
 			);
 			path = NoteBook;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				0103F9F2242FD60800DC966C /* ViewController.swift in Sources */,
 				0103F9EE242FD60800DC966C /* AppDelegate.swift in Sources */,
 				0103F9F0242FD60800DC966C /* SceneDelegate.swift in Sources */,
+				0103FA04242FE7F200DC966C /* NoteViewController.swift in Sources */,
+				0103FA02242FD7AF00DC966C /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
